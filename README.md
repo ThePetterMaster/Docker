@@ -1,8 +1,11 @@
 # Docker
 ![](/homepage-docker-logo.png)
+
 Este repositório serve para mostrar meu aprendizado com Docker.
 
 ## O que é um container?
+<blockquote>Container Docker, é o componente do software de código aberto que automatiza a implementação de aplicativos em Containers LINUX, o famoso Docker.</blockquote>
+
  ![](/Container.png)
 
 ## Primeiros passos com Docker?
