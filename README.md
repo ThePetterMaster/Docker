@@ -8,7 +8,7 @@ Este repositório serve para mostrar meu aprendizado com Docker.
 
  ![](/Container.png)
 
-## Primeiros passos com Docker?
+## Primeiros passos com Docker
 
 Verificar se o Docker foi instalado:
 ` docker version`
