@@ -4,6 +4,8 @@ Este repositório serve para mostrar meu aprendizado com Docker.
 ## O que é um container?
  ![](/Container.png)
 
+## Primeiros passos com Docker?
+
 Verificar se o Docker foi instalado:
 ` docker version`
 
@@ -28,6 +30,18 @@ Listar imagens ativas:
 Listar imagens ativas ou não:
 `docker ps -a`
 
-Executar uma imagem pelo id:
+Executar um container pelo id:
 `docker start -a -i CONTAINER ID`
+
+Remover um container pelo id:
+`docker rm CONTAINER ID`
+
+Remover todos containers inativos:
+`docker container prune`
+
+Visualizar imagens:
+`docker images`
+
+Removendo imagem:
+`docker rmi hello-world`
 
