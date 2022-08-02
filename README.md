@@ -1,4 +1,5 @@
 # Docker
+![](/homepage-docker-logo.png)
 Este repositório serve para mostrar meu aprendizado com Docker.
 
 ## O que é um container?
