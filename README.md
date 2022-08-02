@@ -1,6 +1,9 @@
 # Docker
 Este repositório serve para mostrar meu aprendizado com Docker.
 
+## O que é um container?
+ ![](/Container.png)
+
 Verificar se o Docker foi instalado:
 ` docker version`
 
