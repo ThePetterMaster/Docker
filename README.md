@@ -7,6 +7,11 @@ Este repositório serve para mostrar meu aprendizado com Docker.
 <blockquote>Container Docker, é o componente do software de código aberto que automatiza a implementação de aplicativos em Containers LINUX, o famoso Docker.</blockquote>
 
  ![](/Container.png)
+ 
+## Camadas de um container e seu compartilhamento
+
+ ![](/Container.png)
+
 
 ## Primeiros passos com Docker
 
