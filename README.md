@@ -61,6 +61,7 @@ Removendo imagem:
 
 Executando/Baixando um container de uma fonte não oficial:
 usuario:dockersamples container:static-site
+
 `docker run dockersamples/static-site`
 
 
