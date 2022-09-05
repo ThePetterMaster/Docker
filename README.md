@@ -37,6 +37,9 @@ Listar imagens ativas ou não:
 Executar um container pelo id:
 `docker start -a -i CONTAINER ID`
 
+Parar um container em execução:
+`docker stop CONTAINER ID`
+
 Remover um container pelo id:
 `docker rm CONTAINER ID`
 
