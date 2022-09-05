@@ -10,7 +10,7 @@ Este repositório serve para mostrar meu aprendizado com Docker.
  
 ## Camadas de um container e seu compartilhamento
 
- ![](/Container.png)
+ ![](/Camadas.jpg)
 
 
 ## Primeiros passos com Docker
