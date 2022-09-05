@@ -10,6 +10,8 @@ Este repositório serve para mostrar meu aprendizado com Docker.
  
 ## Camadas de um container e seu compartilhamento
 
+Em um container existem camadas que são compartilhadas por outros containers e essas não podem ser alteradas. Somente as de 
+
  ![](/Camadas.jpg)
 
 
