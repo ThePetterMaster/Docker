@@ -68,4 +68,7 @@ Executando/Baixando sem travar o terminal(-d) e gerando porta aleatória (-P):
 
 `docker run -d -P dockersamples/static-site`
 
+Acessar a rota no comando acima( 0.0.0.0:49154->80/tcp):
+`http://localhost:49154/`
+
 
