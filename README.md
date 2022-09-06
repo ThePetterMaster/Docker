@@ -87,3 +87,7 @@ Executando/Baixando sem travar o terminal(-d) e gerando porta fixa (-p):
 Dando nome a um container:
 
 `docker run -d -P --name meu-site dockersamples/static-site`
+
+Executando/Baixando um container colocando uma variável de ambiente:
+
+`docker run -d -P -e AUTHOR="Pedro Neto" dockersamples/static-site`
