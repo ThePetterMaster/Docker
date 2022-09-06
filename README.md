@@ -93,3 +93,7 @@ Dando nome a um container:
 Executando/Baixando um container colocando uma variável de ambiente:
 
 `docker run -d -P -e AUTHOR="Pedro Neto" dockersamples/static-site`
+
+ ![](/autor pedro neto.png)
+
+
