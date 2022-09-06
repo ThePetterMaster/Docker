@@ -53,6 +53,9 @@ Parar um container em execução(termina por padrão em 10 segundos):
 Parar um container em execução(em 0 segundos):
 `docker stop -t 0 CONTAINER ID`
 
+Parar todos containers em que `docker ps -q` retorna :
+`docker stop -t 0 $(docker ps -q)`
+
 Remover um container pelo id:
 `docker rm CONTAINER ID`
 
