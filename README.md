@@ -78,4 +78,6 @@ Executando/Baixando sem travar o terminal(-d) e gerando porta fixa (-p):
 
 `docker run -d -p 12345:80 dockersamples/static-site`
 
+Dando nome a um container:
 
+`docker run -d -P --name meu-site dockersamples/static-site`
