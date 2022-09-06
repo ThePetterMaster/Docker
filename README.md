@@ -64,4 +64,8 @@ Executando/Baixando um container de uma fonte não oficial(usuario=dockersamples
 
 `docker run dockersamples/static-site`
 
+Executando/Baixando sem travar o terminal(-d) e gerando porta aleatória (-P):
+
+`docker run -d -P dockersamples/static-site`
+
 
