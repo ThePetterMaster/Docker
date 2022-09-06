@@ -8,6 +8,31 @@ Este repositório serve para mostrar meu aprendizado com Docker.
 
  ![](/Container.png)
  
+ ## Arquitetura do Docker:
+ 
+  ![](/Container.png)
+ 
+ ##Docker Daemon:
+ 
+Possui um processo chamado dockerd, escuta as requisições da API do Docker e gerencia os objetos:
+
+##Docker Client:
+
+Utilizado para interagir com o docker, o docker client envia os comandos ao dockerd que os executa.
+
+##Docker Registry:
+
+O docker registry é responsável por armazenar e distribui as imagens docker.
+
+##O que são imagens?
+
+Podemos dizer que uma imagem é a aplicação que queremos executar.
+
+##O que são containers Docker?
+
+Um container é uma instancia de uma imagem sendo executada de forma isolada no host.
+
+
 ## Camadas de um container e seu compartilhamento
 
 Em um container existem camadas que são compartilhadas por outros containers e essas não podem ser alteradas. Somente as camadas de read write podem ser alteradas.
