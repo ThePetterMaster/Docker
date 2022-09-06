@@ -37,7 +37,7 @@ Um container é uma instancia de uma imagem sendo executada de forma isolada no 
 
 Em um container existem camadas que são compartilhadas por outros containers e essas não podem ser alteradas. Somente as camadas de read write podem ser alteradas.
 
- ![](/docker-arquitetura.webp)
+ ![](/Camadas.jpg)
 
 
 ## Primeiros passos com Docker
