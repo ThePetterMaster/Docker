@@ -41,6 +41,9 @@ Listar imagens ativas:
 Listar imagens ativas ou não:
 `docker ps -a`
 
+Listar id das imagens ativas:
+`docker ps -q`
+
 Executar um container pelo id:
 `docker start -a -i CONTAINER ID`
 
