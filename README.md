@@ -10,7 +10,7 @@ Este repositório serve para mostrar meu aprendizado com Docker.
  
  ## Arquitetura do Docker:
  
-  ![](/Container.png)
+  ![](/docker-arquitetura.webp)
  
  ## Docker Daemon:
  
