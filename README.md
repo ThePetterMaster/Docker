@@ -123,3 +123,18 @@ Executando/Baixando um container colocando uma variável de ambiente:
 
 ## Volumes no docker
 
+Através dos volumes é que é possivel persistir dados de um container após ele ser parado
+
+Executar em uma pasta:
+`docker run -d -p  8080:3000 -v "$(pwd):/var/www" -w "/var/www" node npm start`
+
+$(pwd) retorna o diretório atual da pasta
+
+`:/var/www` indica em qual pasta do docker host deve esta o volume
+
+`-w "/var/www" node npm start` indica que ao executar o container, o terminal irá executar o comando `npm start` na pasta /var/www do docker host usando o node
+
+
+
+
+
