@@ -134,6 +134,23 @@ $(pwd) retorna o diretório atual da pasta
 
 `-w "/var/www" node npm start` indica que ao executar o container, o terminal irá executar o comando `npm start` na pasta /var/www do docker host usando o node
 
+## Docker File
+
+É um arquivo que serve para configurar volumes 
+`
+FROM  node:latest 
+ENV PORT=3000
+COPY . /var/www
+WORKDIR /var/www
+RUN npm install
+ENTRYPOINT npm start
+EXPOSE $PORT 
+`
+Comando para gerar a imagem no arquivo Dockerfile:
+`docker build -f Dockerfile -t neto/node .`
+
+Executando o container:
+`docker run -d -p 8080:3000 neto/node`
 
 
 
