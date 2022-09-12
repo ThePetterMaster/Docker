@@ -156,6 +156,16 @@ Executando o container:
 
 ![](/ConectandoContainers.png)
 
+## Redes no Docker
+
+O docker cria um ip para cada container executado no docker host
+
+![](/RedesDocker.png)
+
+Por padrão eles são criados em uma rede chamada "bridge". Para verificar isso:`docker inspect CONTAINER ID`
+
+
+
 
 
 
