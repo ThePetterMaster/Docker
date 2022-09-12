@@ -154,7 +154,7 @@ Executando o container:
 
 ## Comunicação entre containers 
 
-![](/hellodocker.png)
+![](/ConectandoContainers.png)
 
 
 
