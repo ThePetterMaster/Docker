@@ -164,6 +164,12 @@ O docker cria um ip para cada container executado no docker host
 
 Por padrão eles são criados em uma rede chamada "bridge". Para verificar isso:`docker inspect CONTAINER ID`
 
+![](/CriandoRede.png)
+
+Comando para criar uma rede: `docker network create --driver bridge minha-rede`
+
+
+
 
 
 
