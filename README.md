@@ -170,6 +170,10 @@ Comando para criar uma rede: `docker network create --driver bridge minha-rede`
 
 Pegando banco de dados do alura:`docker pull douglasq/alura-books:cap05`
 
+Rodando o banco de dados(primeiro):`docker run -d --name meu-mongo --network minha-rede mongo`
+
+Rodando a aplicação:`docker run --network minha-rede -d -p 8080:3000 douglasq/alura-books:cap05`
+
 
 
 
