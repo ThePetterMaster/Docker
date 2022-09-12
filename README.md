@@ -168,6 +168,8 @@ Por padrão eles são criados em uma rede chamada "bridge". Para verificar isso:
 
 Comando para criar uma rede: `docker network create --driver bridge minha-rede`
 
+Pegando banco de dados do alura:`docker pull douglasq/alura-books:cap05`
+
 
 
 
