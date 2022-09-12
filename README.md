@@ -152,6 +152,11 @@ Comando para gerar a imagem no arquivo Dockerfile:
 Executando o container:
 `docker run -d -p 8080:3000 neto/node`
 
+## Comunicação entre containers 
+
+![](/hellodocker.png)
+
+
 
 
 
