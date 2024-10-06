@@ -153,14 +153,13 @@ Arquivo para criação de imagens.
  ![](/DockerFile.png)
 
  `docker build -t danielartine/app-node:1 .`
-
- `
+\`\`\`python
  FROM node:14
 WORKDIR /app-node
 COPY . .
 RUN npm install
 ENTRYPOINT npm start
- `
+\`\`\`
 
  
 ## Volumes no docker
