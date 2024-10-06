@@ -181,7 +181,9 @@ Mandar para o docker hub:
 
 Mudar de usuário:
 
-docker tag danielartini/app-node:1.0 aluradocker/app-node:1.0
+`docker tag danielartini/app-node:1.0 aluradocker/app-node:1.0`
+
+## Persistindo dados no docker
 
 
  
