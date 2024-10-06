@@ -30,7 +30,7 @@ Podemos dizer que uma imagem é a aplicação que queremos executar.
 
 ## O que são containers Docker?
 
-Um container é uma instancia de uma imagem sendo executada de forma isolada no host.
+Um container é uma instancia de uma imagem sendo executada de forma isolada no host. Na prática é uma imagem com uma camada de read write.
 
 
 ## Camadas de um container e seu compartilhamento
