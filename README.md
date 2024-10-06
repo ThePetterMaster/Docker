@@ -149,7 +149,18 @@ Procura a imagem localmente -> Baixa a imagem caso não encontre localmente -> V
 ## Docker File
 
 Arquivo para criação de imagens.
+
  ![](/DockerFile.png)
+
+ `docker build -t danielartine/app-node:1 .`
+
+ `
+ FROM node:14
+WORKDIR /app-node
+COPY . .
+RUN npm install
+ENTRYPOINT npm start
+ `
 
  
 ## Volumes no docker
