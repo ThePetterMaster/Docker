@@ -185,6 +185,7 @@ Mudar de usuário:
 
 ## Persistindo dados no docker
 
+![](/types-of-mounts-bind.webp)
 
  
 ## Volumes no docker
