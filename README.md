@@ -163,6 +163,8 @@ COPY . . (copia os arquivos da pasta app-exemplo para /app-node) ou COPY . /app-
 RUN npm install
 ENTRYPOINT npm start
 ```
+
+`docker run -d –p 8081:3000 danielartine/app-node:1.0`
  
 ## Volumes no docker
 
