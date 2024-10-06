@@ -294,6 +294,12 @@ Ip do container é o mesmo da máquina.
 
 Container não se comunicam.
 
+## Docker compose
+
+O Docker Compose irá resolver o problema de executar múltiplos containers de uma só vez e de maneira coordenada, evitando executar cada comando de execução individualmente.
+
+`docker compose up`
+
 
 
 
