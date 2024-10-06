@@ -187,6 +187,43 @@ Mudar de usuário:
 
 ![](/types-of-mounts-bind.webp)
 
+### Bind mount
+
+Todos os arquivos salvos, criados, editados ou excluídos em /app no container serão salvos no computador em /home/daniel/volume-docker
+
+`docker run -it --mount type=bind,source=/home/daniel/volume-docker,target=/app ubuntu bash`
+
+`docker run -it -v /home/daniel/volume-docker:/app ubuntu bash`
+
+### Volumes 
+
+O docker separa um sistema de arquivos próprio
+
+Criando volume:
+
+`docker volume create meu-volume`
+
+`docker run -it -v meu-volume:/app ubuntu bash`
+
+`docker run -it --mount source=meu-volume,target=/app ubuntu bash`
+
+Se sairmos do modo de superusuário (com o comando exit) e executarmos um docker volume simplesmente, sem passar nada, ele vai mostrar no retorno os comandos possíveis para gerenciamento do volume:
+
+create para criar volumes;
+
+inspect para inspecioná-los;
+
+ls para listá-los;
+
+prune para remover os volumes que não estão sendo usados;
+
+rm para remover qualquer volume, sendo usado ou não.
+
+Buscando volumes:
+
+`docker volume ls`
+
+
  
 ## Volumes no docker
 
