@@ -152,10 +152,12 @@ Arquivo para criação de imagens.
 
  ![](/DockerFile.png)
 
+Comando na pasta app-exemplo
+
  `docker build -t danielartine/app-node:1 .`
 
 ```
- FROM node:14
+FROM node:14
 WORKDIR /app-node
 COPY . .
 RUN npm install
