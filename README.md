@@ -102,6 +102,10 @@ Executando/Baixando sem travar o terminal(-d) e gerando porta aleatória (-P):
 
 `docker run -d -P dockersamples/static-site`
 
+-p (ou --publish): Permite especificar manualmente a correspondência de portas entre o host e o container. O formato é -p [porta_host]:[porta_container]. Por exemplo, -p 8080:80 mapeia a porta 8080 do host para a porta 80 do container. Isso oferece controle preciso sobre quais portas são expostas e como são mapeadas.
+
+-P (ou --publish-all): Mapeia automaticamente todas as portas expostas no Dockerfile ou na imagem para portas aleatórias no host. Isso é útil quando você não se importa com quais portas específicas são usadas no host, mas quer garantir que todas as portas expostas no container estejam acessíveis.
+
 Acessar a rota no comando acima( 0.0.0.0:49154->80/tcp):
 `http://localhost:49154/`
  
