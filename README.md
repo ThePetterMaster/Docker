@@ -120,6 +120,10 @@ Executando/Baixando um container colocando uma variável de ambiente:
 `docker run -d -P -e AUTHOR="Pedro Neto" dockersamples/static-site`
 
  ![](/autorpedroneto.png)
+ 
+## Etapas do run
+
+Procura a imagem localmente -> Baixa a imagem caso não encontre localmente -> Valida o hash da imagem -> Executa o container.
 
 ## Volumes no docker
 
