@@ -158,8 +158,8 @@ Comando na pasta app-exemplo
 
 ```
 FROM node:14
-WORKDIR /app-node
-COPY . .
+WORKDIR /app-node (muda para a pasta /app-node dentro do container)
+COPY . . (copia os arquivos da pasta app-exemplo para /app-node)
 RUN npm install
 ENTRYPOINT npm start
 ```
