@@ -167,9 +167,23 @@ RUN npm install
 ENTRYPOINT npm start
 ```
 
+Acessar aplicação localhost:9090 
+
+`docker run –p 9090:6000 –d danielartine/app-node:1.2`
+
+Login no docker hub(usuário do professor):
+
+`docker login -u aluradocker`
+
+Mandar para o docker hub:
+
+`docker push aluradocker/app-node:1.0`
+
+Mudar de usuário:
+
+docker tag danielartini/app-node:1.0 aluradocker/app-node:1.0
 
 
-`docker run -d –p 8081:3000 danielartine/app-node:1.0`
  
 ## Volumes no docker
 
