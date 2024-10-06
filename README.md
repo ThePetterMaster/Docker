@@ -294,19 +294,6 @@ Ip do container é o mesmo da máquina.
 
 Container não se comunicam.
 
-![](/RedesDocker.png)
-
-Por padrão eles são criados em uma rede chamada "bridge". Para verificar isso:`docker inspect CONTAINER ID`
-
-![](/CriandoRede.png)
-
-Comando para criar uma rede: `docker network create --driver bridge minha-rede`
-
-Pegando banco de dados do alura:`docker pull douglasq/alura-books:cap05`
-
-Rodando o banco de dados(primeiro) dentro da rede minha-rede:`docker run -d --name meu-mongo --network minha-rede mongo`
-
-Rodando a aplicação dentro da rede minha-rede:`docker run --network minha-rede -d -p 8080:3000 douglasq/alura-books:cap05`
 
 
 
