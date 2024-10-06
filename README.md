@@ -106,6 +106,10 @@ Executando/Baixando sem travar o terminal(-d) e gerando porta aleatória (-P):
 
 -P (ou --publish-all): Mapeia automaticamente todas as portas expostas no Dockerfile ou na imagem para portas aleatórias no host. Isso é útil quando você não se importa com quais portas específicas são usadas no host, mas quer garantir que todas as portas expostas no container estejam acessíveis.
 
+No contexto do comando docker run, a flag -d significa “modo destacado” (do inglês, “detached mode”). Quando você usa -d, o Docker executa o container em segundo plano, permitindo que você continue a usar o terminal para outras tarefas.
+
+Por exemplo, ao executar docker run -d dockersamples/static-site, o container será iniciado e rodará em segundo plano, sem ocupar o terminal.
+
 Acessar a rota no comando acima( 0.0.0.0:49154->80/tcp):
 `http://localhost:49154/`
  
