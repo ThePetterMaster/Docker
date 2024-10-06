@@ -300,6 +300,30 @@ O Docker Compose irá resolver o problema de executar múltiplos containers de u
 
 `docker compose up`
 
+```
+version: "3.9"
+services:
+  mongodb:
+    image: mongo:4.4.6
+    container_name: meu-mongo
+    networks:
+      - compose-bridge
+  
+  alurabooks:
+    image: aluradocker/alura-books:1.0
+    container_name: alurabooks
+    networks:
+      - compose-bridge
+    ports:
+      - 3000:3000
+    depends_on:
+     - mongodb
+
+networks:
+  compose-bridge:
+    driver: bridge
+
+```
 
 
 
