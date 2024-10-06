@@ -57,8 +57,11 @@ Executar imagem ubuntu:
 Executar o echo do ubuntu:
 `docker run ubuntu echo "Olá mundo"`
 
-Abrir terminal do ubuntu:
+Abrir terminal do ubuntu(modo iterativo):
 `docker run -it ubuntu`
+
+Executar um comando em um container que já está em execução:
+`docker exec -it CONTEINER ID bash`
 
 Listar imagens ativas:
 `docker ps`
