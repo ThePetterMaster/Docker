@@ -300,6 +300,10 @@ O Docker Compose irá resolver o problema de executar múltiplos containers de u
 
 `docker compose up`
 
+`docker-compose up -d`
+
+`docker-compose down`
+
 ```
 version: "3.9"
 services:
