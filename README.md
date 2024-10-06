@@ -132,6 +132,14 @@ Executando/Baixando um container colocando uma variável de ambiente:
 
 `docker run -d -P -e AUTHOR="Pedro Neto" dockersamples/static-site`
 
+Verificar quais são as camadas de uma imagem:
+
+`docker history CONTAINER ID`
+
+Detalhes de uma imagem:
+
+`docker inspect CONTAINER ID`
+
  ![](/autorpedroneto.png)
  
 ## Etapas do run
