@@ -262,7 +262,37 @@ Executando o container:
 
 ## Redes no Docker
 
-O docker cria um ip para cada container executado no docker host
+O docker cria um ip para cada container executado no docker host. Cada contaniner pode se comunicar diretamento se estiverem na mesma rede.
+
+### Bridge
+
+Uma rede do tipo drive bridge, o ip do container é gerado aleatóriamente.
+
+Criar uma rede do tipo bridge:
+
+`docker network create --driver bridge minha-bridge`
+
+Criando 2 container na mesma rede.
+
+`docker run -it --name ubuntu1 --network minha-bridge ubuntu bash`
+
+`docker run -d --name pong --network minha-bridge ubuntu sleep 1d`
+
+Comunicação entre eles:
+
+`ping pong`
+
+--name pong serve para se comunicar pelo nome sem especificar o ip.
+
+### Host
+
+Ip do container é o mesmo da máquina.
+
+`docker run -d --network host aluradocker/app-node:1.0`
+
+### None
+
+Container não se comunicam.
 
 ![](/RedesDocker.png)
 
