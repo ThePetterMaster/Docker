@@ -160,9 +160,14 @@ Comando na pasta app-exemplo
 FROM node:14
 WORKDIR /app-node (muda para a pasta /app-node dentro do container)
 COPY . . (copia os arquivos da pasta app-exemplo para /app-node) ou COPY . /app-node
+ARG PORT_BUILD=6000 (variável dentro do dockerfile)
+ENV PORT=$PORT_BUILD (variável fora do dockerfile process.env.PORT)
+EXPOSE $PORT_BUILD (porta para acessa aplicação de fora do container)
 RUN npm install
 ENTRYPOINT npm start
 ```
+
+
 
 `docker run -d –p 8081:3000 danielartine/app-node:1.0`
  
