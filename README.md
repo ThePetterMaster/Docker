@@ -146,6 +146,12 @@ Detalhes de uma imagem:
 
 Procura a imagem localmente -> Baixa a imagem caso não encontre localmente -> Valida o hash da imagem -> Executa o container.
 
+## Docker File
+
+Arquivo para criação de imagens.
+ ![](/DockerFile.png)
+
+ 
 ## Volumes no docker
 
 Através dos volumes é que é possivel persistir dados de um container após ele ser parado
