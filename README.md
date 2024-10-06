@@ -162,7 +162,7 @@ WORKDIR /app-node (muda para a pasta /app-node dentro do container)
 COPY . . (copia os arquivos da pasta app-exemplo para /app-node) ou COPY . /app-node
 ARG PORT_BUILD=6000 (variável dentro do dockerfile)
 ENV PORT=$PORT_BUILD (variável fora do dockerfile process.env.PORT)
-EXPOSE $PORT_BUILD (porta para acessa aplicação de fora do container)
+EXPOSE $PORT_BUILD (porta para acessa aplicação DENTRO do container)
 RUN npm install
 ENTRYPOINT npm start
 ```
